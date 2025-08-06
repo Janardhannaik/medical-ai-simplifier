@@ -1,0 +1,95 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.file-upload {
+  display: inline-block;
+  background: #f0f4ff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px dashed #a3bffa;
+  color: #0a2a66;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.upload-icon {
+  margin-right: 8px;
+}
+
+.text-input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  resize: none;
+}
+
+.select-language {
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.simplify-btn {
+  background: #2d64ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.camera-btn {
+  background: #00b894;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: #ff7675;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.speaker-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #0a2a66;
+  margin-top: 10px;
+}
+.gradient-btn {
+  background: linear-gradient(90deg, #2d64ff, #5edfff);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.gradient-btn:hover {
+  opacity: 0.9;
+}
+
+.cancel-btn {
+  background: #ff7675;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.image-preview img {
+  max-width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,24 @@
+.history-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.history-card {
+  background: linear-gradient(135deg, #f0f8ff, #e6f2ff);
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #a3bffa;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.history-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+}
